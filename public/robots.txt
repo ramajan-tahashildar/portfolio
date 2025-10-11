@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio.ramajan.dev/sitemap.xml
+
+

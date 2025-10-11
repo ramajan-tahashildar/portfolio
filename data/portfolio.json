@@ -1,0 +1,143 @@
+{
+  "project": {
+    "name": "Ramajan Control Center",
+    "goal": "Build a DevOps + Backend Engineer Portfolio (No DB, Dynamic Feel)",
+    "stack": {
+      "frontend": "Next.js",
+      "styling": "TailwindCSS + Framer Motion",
+      "data": "Local JSON files + GitHub API"
+    }
+  },
+  "hero": {
+    "name": "Ramajan Tahashildar",
+    "title": "Backend & DevOps Engineer",
+    "tagline": "I build systems, not just code.",
+    "skills": ["Node.js", "Docker", "Redis", "AWS", "CI/CD", "WebSockets"]
+  },
+  "about": {
+    "intro": "Passionate Backend & DevOps Engineer with expertise in building scalable distributed systems and automating infrastructure. I thrive on optimizing performance, ensuring reliability, and creating seamless deployment pipelines.",
+    "highlights": [
+      "Built distributed job queuing systems handling 10M+ jobs/day",
+      "Architected microservices infrastructure with 99.9% uptime",
+      "Automated CI/CD pipelines reducing deployment time by 80%",
+      "Optimized API performance from 2s to 200ms response time"
+    ]
+  },
+  "techStack": [
+    {
+      "name": "Node.js",
+      "category": "Backend",
+      "description": "Built RESTful APIs and microservices"
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps",
+      "description": "Containerized 50+ microservices"
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud",
+      "description": "EC2, S3, Lambda, RDS, CloudWatch"
+    },
+    {
+      "name": "Redis",
+      "category": "Database",
+      "description": "Caching and session management"
+    },
+    {
+      "name": "Nginx",
+      "category": "Server",
+      "description": "Load balancing and reverse proxy"
+    },
+    {
+      "name": "MongoDB",
+      "category": "Database",
+      "description": "NoSQL database for scalable data"
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Database",
+      "description": "Relational database management"
+    },
+    {
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "description": "Container orchestration"
+    },
+    {
+      "name": "Jenkins",
+      "category": "CI/CD",
+      "description": "Automated deployment pipelines"
+    },
+    {
+      "name": "GitHub Actions",
+      "category": "CI/CD",
+      "description": "Workflow automation"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Distributed Job Queue System",
+      "description": "Built a scalable job processing system handling 10M+ jobs per day with Redis and Bull",
+      "stack": ["Node.js", "Redis", "Bull", "Docker", "AWS"],
+      "architecture": "Microservices with message queue pattern",
+      "features": [
+        "Priority-based job scheduling",
+        "Auto-scaling workers",
+        "Real-time monitoring dashboard",
+        "Failure retry mechanism"
+      ],
+      "repo": "https://github.com/ramajan",
+      "live": null
+    },
+    {
+      "id": 2,
+      "name": "Real-time Analytics API",
+      "description": "High-performance API serving 1000+ req/sec with WebSocket support for live data streaming",
+      "stack": ["Node.js", "WebSocket", "PostgreSQL", "Redis", "Nginx"],
+      "architecture": "Load-balanced API with caching layer",
+      "features": [
+        "Real-time data streaming",
+        "Response caching",
+        "Rate limiting",
+        "Load balancing"
+      ],
+      "repo": "https://github.com/ramajan",
+      "live": "https://api.example.com"
+    },
+    {
+      "id": 3,
+      "name": "Automated CI/CD Pipeline",
+      "description": "Complete CI/CD infrastructure with automated testing, building, and deployment",
+      "stack": ["Jenkins", "Docker", "Kubernetes", "GitHub Actions", "AWS"],
+      "architecture": "GitOps workflow with automated deployments",
+      "features": [
+        "Automated testing",
+        "Zero-downtime deployment",
+        "Rollback mechanism",
+        "Multi-environment support"
+      ],
+      "repo": "https://github.com/ramajan",
+      "live": null
+    }
+  ],
+  "infrastructure": {
+    "flow": [
+      { "id": 1, "name": "Client", "type": "entry" },
+      { "id": 2, "name": "Nginx", "type": "proxy", "description": "Load Balancer & Reverse Proxy" },
+      { "id": 3, "name": "Node.js API", "type": "service", "description": "REST API Server" },
+      { "id": 4, "name": "MongoDB", "type": "database", "description": "Primary Database" },
+      { "id": 5, "name": "Redis", "type": "cache", "description": "Cache & Session Store" },
+      { "id": 6, "name": "AWS S3", "type": "storage", "description": "Static Assets Storage" }
+    ]
+  },
+  "contact": {
+    "github": "https://github.com/ramajan",
+    "linkedin": "https://linkedin.com/in/ramajan",
+    "email": "ramajan@example.com",
+    "resume": "/resume.pdf"
+  }
+}
+
+
